@@ -1,0 +1,197 @@
+body
+{
+    margin:0;
+    padding:0;
+    font-family:sans-serif
+}
+
+#header
+{
+    background-image:url(image1.jpeg);
+    height: 100vh;
+    color: #ffffff;
+    text-align: center;
+    overflow: hidden;
+    background-size: cover;
+    font-family: "Poiret One",Times, sans-serif;
+    background-position: center;
+    
+}
+
+ #header h1{
+            font-size: 5em;
+            font-weight: 100;
+            margin-top: 40vh;
+            }
+        
+#header h2{
+            text-transform: uppercase;
+            font-weight: 100;
+            letter-spacing: 0.2em;
+                font-size: 1.4em;
+            }
+#textsize{
+                font-family:"Crimson Text",Times,serif;
+                font-size:17px
+            }
+            
+.user-box
+{
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    position:absolute;
+}
+
+.user-box img
+{
+    border-radius:50%;
+    width:250px;
+    width:250px;
+    border:2px solid #6caed5;
+}
+
+.user-box h1
+{
+    color:black;
+    font-weight:bold;
+    margin:10px;
+    
+}
+.user-box p
+{
+    color:black;
+        
+    
+}
+
+.scroll-btn
+{
+    bottom:30px;
+    position:absoute;
+    left:50%;
+    transform:translateX(-59)
+        border:1px solid #ffffff;
+    padding:10px 10px 20 px;
+    border-radius:30px;
+}
+
+.scroll-bar span
+{
+    border:2px solid #ffffff;
+    font-size:10px;
+    border-radius:30px;
+    
+}
+
+.scoroll-bar
+{
+    animation:mover 1s infinite alternate;
+}
+@keyframes mover
+{
+    0%{transform:translateY(0)}
+    100%{transform:translateY(10px)}
+    
+}
+/*------ABOUT----*/
+
+.about
+{
+    padding-top:100px;
+    padding-bottom: 50px;
+    
+}
+
+.profile-img
+{
+    height:400px
+}
+
+.nav-bar
+{
+    top:0;
+    position:sticky;
+    z-index:2;
+    
+}
+
+.nvabar
+{
+    background-color:black;
+    
+}
+
+.nav-bar.farbars
+{
+    font-size:35px;
+    color:black;
+}
+
+.nav-bar
+
+.resume
+{
+    padding-top:50px;
+    padding-bottom:30px;
+    background:#f9f9f9
+}
+
+.resume h3
+{
+    margin-bottom:50px;
+}
+
+.timeline
+{
+    list-style-type:none;
+    position:relative;
+}
+
+.timeline:before
+{
+    content:'';
+    background:#444;
+    display:inline-block;
+    position:absolute;
+    left:29px;
+    width:2px;
+    height:100%;
+    z-index:1;
+}
+.timeline li
+{
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-left:20px;
+    background:#fff;
+}
+
+.timeline li h4
+{
+    background-color:#000;
+    padding:5px 0 5px 20px;
+    column-rule-color:#fff;
+    font-size:15;
+    color:white;
+}
+
+.timeline li h4 span
+{
+    font-weight:bold;
+    color:#ccc
+}
+
+.timeline li:before
+{
+    content:'';
+    background:#fff;
+    display:inline-block;
+    position:absolute;
+    border-radius:50%;
+    border:3px solid #000;
+    left:20px;
+    width:20px;
+    height:20px;
+    z-index:1;
+}
