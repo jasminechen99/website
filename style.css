@@ -22,6 +22,7 @@ body
             font-size: 5em;
             font-weight: 100;
             margin-top: 40vh;
+            font-family: "Poiret One",Times, sans-serif;
             }
         
 #header h2{
@@ -30,11 +31,30 @@ body
             letter-spacing: 0.2em;
                 font-size: 1.4em;
             }
+
+#titlesize{
+        font-size:35px;
+    font-weight:100;
+    font-family: "Poiret One",Times, sans-serif;
+    background-position: center;
+    
+}
+
 #textsize{
                 font-family:"Crimson Text",Times,serif;
                 font-size:17px
             }
-            
+
+#textsize2{
+                font-family:"Poiret One",Times,sans-serif;
+                font-size:20px
+            }
+#resumetext{
+            font-family:"Crimson Text",Times,serif;
+            font-size:17px;
+            color:white;
+}
+
 .user-box
 {
     top:50%;
@@ -107,6 +127,24 @@ body
 {
     height:400px
 }
+
+.portfolio
+{
+    padding-top:100px;
+    padding-bottom:50px;
+}
+
+.portfolio-img
+{
+    height:400px;
+}
+
+.project
+{
+    padding-top:100px;
+    padding-bottom:50px;
+}
+
 
 .nav-bar
 {
